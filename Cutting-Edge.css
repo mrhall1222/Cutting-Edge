@@ -21,9 +21,13 @@ header h1 {
 
 header nav {
   font-size: 20px;
-  padding-bottom: 0px;
   display: flex;
   justify-content: flex-end;
+}
+
+#navbar a {
+  padding-right: 30px;
+  padding-bottom: 0px;
 }
 
 header p {
@@ -96,32 +100,36 @@ section .row img {
 }
 
 .btn.btn-primary:hover {
-  font-size: 100px;
-  color: #fbd1d5;
+  color: #fff;
   background-color: #fbd1d5;
 }
 
 .btn-secondary {
-  background-color: #E8DFE0;
+  background-color: #9F80E6;
   color: #ffffff;
   margin: 30px;
 }
 
 footer {
-  font-size: 12px;
-  padding: 20px 0;
+  align-items: center;
+  font-size: 15px;
+  padding: 20px;
 }
 
 footer .col-sm-8 {
+  font-size: 40px;
+  align-items: center;
   display: flex;
   justify-content: flex-end;
 }
 
 footer ul {
+  align-items: center;
   list-style: none;
 }
 
 footer li img {
-  width: 32px;
-  height: 32px;
+  align-items: center;
+  width: 40px;
+  height: 40px;
 }
