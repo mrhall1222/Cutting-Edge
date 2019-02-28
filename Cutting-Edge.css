@@ -1,11 +1,12 @@
 body {
   font-family: georgia, sans-serif;
   font-weight: 300;
-  background-color: #B4DC96;
+  background-color: #F8B195;
+  background-position: center;
 }
 
 header {
-  padding: 5px;
+  padding-top: 15px;
 }
 
 
@@ -17,6 +18,7 @@ footer .row {
 header h1 {
   font-weight: 700;
   padding-bottom: 0px;
+  color: #355C7D;
 }
 
 header nav {
@@ -51,13 +53,13 @@ header p {
   font-size: 60px;
   font-weight: 700;
   margin: 0;
-  color: #7FDBFF;
+  color: #F67280;
 }
 
 .jumbotron h3 {
   font-family: georgia, serif;
   margin: 0 0 20px;
-  color: #C828CB;
+  color: #C06C84;
 }
 
 section .row img {
@@ -71,19 +73,24 @@ section .row img {
 
 
 #banner {
-  background-color: green;
+  background-color: #C06C84;
+  opacity: 0.5;
+  color: #355C7D;
 }
+
+
 
 .three div {
   font-size: 30px;
   padding-top: 40px;
   padding-right: 90px;
   padding-bottom: 20px;
-  padding-left: 50px;
+  padding-left: 60px;
 }
 
 .two div{
   font-size: 30px;
+  padding-right: 20px;
 
 }
 
@@ -96,7 +103,7 @@ section .row img {
   border: 30px;
   color: #black;
   text-shadow: none;
-  background-color: #9F80E6;
+  background-color: #8968CF;
 }
 
 .btn.btn-primary:hover {
@@ -105,7 +112,7 @@ section .row img {
 }
 
 .btn-secondary {
-  background-color: #9F80E6;
+  background-color: #8968CF;
   color: #ffffff;
   margin: 30px;
 }
