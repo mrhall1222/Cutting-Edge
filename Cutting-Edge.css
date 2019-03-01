@@ -1,142 +1,28 @@
-body {
-  font-family: georgia, sans-serif;
-  font-weight: 300;
-  background-color: #F8B195;
-  background-position: center;
+.carouselImg {
+  width: auto;
+  height: 1000px;
+  max-height: 600px;
+  object-fit: cover;
 }
 
-header {
-  padding-top: 15px;
+nav {
+    color: #4c2731;
 }
 
-
-footer .row {
-  display: flex;
-  align-items: center;
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
 }
 
-header h1 {
-  font-weight: 700;
-  padding-bottom: 0px;
-  color: #355C7D;
+.card:hover {
+  opacity: 0.95;
 }
 
-header nav {
-  font-size: 20px;
-  display: flex;
-  justify-content: flex-end;
+#foot {
+  font-size: 12px;
 }
 
-#navbar a {
-  padding-right: 30px;
-  padding-bottom: 0px;
-}
-
-header p {
-  padding: 20px;
-  margin: 0px;
-}
-
-.jumbotron {
-  display: flex;
-  align-items: center;
-  background-image: url('./images/44.jpg');
-  background-size: cover;
-  color: #ffffff;
-  height: 500px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-}
-
-.jumbotron h2 {
-  font-family: georgia, serif;
-  font-style: italic;
-  font-size: 60px;
-  font-weight: 700;
-  margin: 0;
-  color: #F67280;
-}
-
-.jumbotron h3 {
-  font-family: georgia, serif;
-  margin: 0 0 20px;
-  color: #C06C84;
-}
-
-section .row img {
-  margin: 20px;
-  width: 100%;
-}
-
-.col-md-6 {
-  margin: 30px;
-}
-
-
-#banner {
-  background-color: #C06C84;
-  opacity: 0.5;
-  color: #355C7D;
-}
-
-
-
-.three div {
-  font-size: 30px;
-  padding-top: 40px;
-  padding-right: 90px;
-  padding-bottom: 20px;
-  padding-left: 60px;
-}
-
-.two div{
-  font-size: 30px;
-  padding-right: 20px;
-
-}
-
-
-.btn.btn-primary {
-  font-size: 20px;
-  height: 40px;
-  width: 200px;
-  border-radius: 10px;
-  border: 30px;
-  color: #black;
-  text-shadow: none;
-  background-color: #8968CF;
-}
-
-.btn.btn-primary:hover {
-  color: #fff;
-  background-color: #fbd1d5;
-}
-
-.btn-secondary {
-  background-color: #8968CF;
-  color: #ffffff;
-  margin: 30px;
-}
-
-footer {
-  align-items: center;
-  font-size: 15px;
-  padding: 20px;
-}
-
-footer .col-sm-8 {
-  font-size: 40px;
-  align-items: center;
-  display: flex;
-  justify-content: flex-end;
-}
-
-footer ul {
-  align-items: center;
-  list-style: none;
-}
-
-footer li img {
-  align-items: center;
-  width: 40px;
-  height: 40px;
+a {
+  color: #4c2731;
 }
