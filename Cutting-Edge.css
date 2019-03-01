@@ -5,8 +5,32 @@
   object-fit: cover;
 }
 
+h1 {
+  font-family: bookman, serif;
+  font-size: 50px;
+  color: ####F6FBE6;
+}
+
+p {
+  font-family: bookman, serif;
+}
+
+
 nav {
     color: #4c2731;
+}
+
+.navbar-header {
+    width: 20%;
+}
+
+.navbar-brand {
+  font-family: bookman, serif;
+  font-size: 30px;
+}
+
+#logo {
+  height: 50px;
 }
 
 .card-img-top {
@@ -20,7 +44,18 @@ nav {
 }
 
 #foot {
-  font-size: 12px;
+  padding-top: 20px;
+  margin: 45px;
+  font-size: 20px;
+}
+
+#footer {
+  font-size: 40px;
+  display:block;
+  float:right;
+  padding-right: 30px;
+  padding-top: 90px;
+  position: relative;
 }
 
 a {
