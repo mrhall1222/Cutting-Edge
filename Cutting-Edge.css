@@ -33,6 +33,23 @@ nav {
   height: 50px;
 }
 
+button {
+  border-radius: 12px;
+  border: none;
+  background-color: #F9F575;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration:none;
+  display: inline-block;
+  font-size: 20px;
+  color: ###;
+  font-family: bookman;
+}
+
+button:hover {
+  background-color: #F5F7D7;
+  color: ###;
+}
 
 .card-img-top {
     width: 100%;
