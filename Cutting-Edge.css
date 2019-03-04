@@ -18,6 +18,15 @@
   background-color: #D5F4CE;
 }
 
+#missionbody  {
+  background-color: #FADCFC;
+}
+
+#rollbody {
+  background-color: #BFF6FE;
+}
+
+
 .locationimage {
   height: 30em;
   width: auto;
