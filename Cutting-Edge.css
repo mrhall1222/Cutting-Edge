@@ -19,7 +19,8 @@
 }
 
 .locationimage {
-  height: 400px;
+  height: 30em;
+  width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
