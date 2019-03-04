@@ -14,6 +14,19 @@
   height: 100%;
 }
 
+#aboutbody  {
+  background-color: #D5F4CE;
+}
+
+.locationimage {
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 30px;
+}
+
 h1 {
   font-family: bookman, serif;
   font-size: 50px;
@@ -98,10 +111,7 @@ p {
   font-family: bookman, serif;
 }
 
-/* p1 {
-  font-family: bookman, serif;
-  text-align: left;
-} */
+
 
 nav {
     color: #4c2731;

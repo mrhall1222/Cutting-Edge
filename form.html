@@ -12,15 +12,9 @@
   </head>
 
     <body id="menubody">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <a class="navbar-left" href="index.html"><img id="logo" src="https://images.vexels.com/media/users/3/156005/isolated/lists/859a322ab7a8ed6add53955809ebee49-egyptian-traditional-leg-and-knife-symbol.png"></a>
             <a class="navbar-brand" href="index.html">Cutting-Edge Creamery</a>
-
-            <ul class="navbar-nav ml-auto" id="navbar">
-                <li>News</li>
-                <li>PreOrder</li>
-                <li>Contact</li>
-            </ul>
         </nav>
 
       <section class="preorder center-block">
@@ -47,7 +41,7 @@
            <div class="mb-3">
              <label for="phonenumber">Phone Number</label>
              <div class="input-group">
-               <input type="number" class="form-control" id="phone" placeholder="8881234567" required>
+               <input type="number" class="form-control" id="phone" placeholder="5555555555" required>
                <div class="invalid-feedback" style="width: 100%;">
                  Your phone number is required.
                </div>
@@ -74,11 +68,6 @@
 
 
            <hr class="mb-4">
-           <div class="custom-control custom-checkbox">
-             <input type="checkbox" class="custom-control-input" id="save-info">
-             <label class="custom-control-label" for="save-info">Save this information for next time</label>
-           </div>
-           <hr class="mb-4">
 
            <h2 class="mb-3">Payment</h2>
             <p class="descriptions">All pre-orders are required to pay online prior  to pick-up</p>
@@ -91,10 +80,6 @@
              <div class="custom-control custom-radio">
                <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
                <label class="custom-control-label" for="debit">Debit card</label>
-             </div>
-             <div class="custom-control custom-radio">
-               <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
-               <label class="custom-control-label" for="paypal">PayPal</label>
              </div>
            </div>
 
@@ -132,7 +117,7 @@
              </div>
            </div>
            <hr class="mb-4">
-           <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+           <button class="btn btn-primary btn-lg btn-block" type="submit">Place Order</button>
          </form>
        </div>
      </section>
