@@ -30,6 +30,24 @@
   background-color: #EAD7FF;
 }
 
+.missiondescription {
+  font-family: bookman, serif;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 65px;
+  margin-right: 65px;
+}
+
+
+.truckimage {
+  height: 20em;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
 
 .locationimage {
   height: 30em;
