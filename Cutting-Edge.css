@@ -5,16 +5,100 @@
   object-fit: cover;
 }
 
+#menubody  {
+  background-color: #F5F7D7;
+}
+
+
 h1 {
   font-family: bookman, serif;
   font-size: 50px;
   color: #F9F575;
 }
 
+h2  {
+  font-family: bookman;
+  color: black;
+  text-align: center;
+  padding-top: 30px;
+}
+
+h3  {
+  font-family: bookman;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 15px;
+  text-decoration: underline;
+}
+
+
+
+h4  {
+  font-family: bookman, serif;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 40px;
+  padding-bottom: 28px;
+}
+
+h5  {
+  font-family: bookman, serif;
+  font-size: 20px;
+}
+
+
+.menuitems {
+  font-family: bookman, serif;
+}
+
+.descriptions {
+  font-style: italic;
+  font-size: 18px;
+}
+
+
+.classic {
+  font-family: bookman,serif;
+  font-size: 17px;
+  text-align: center;
+}
+
+
+.buildown {
+  font-family: bookman,serif;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 30px;
+}
+
+.byoprice {
+  text-align: center;
+  font-family: bookman, serif;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.required-mark{
+  font-family: bookman, serif;
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+
+
 p {
   font-family: bookman, serif;
 }
 
+/* p1 {
+  font-family: bookman, serif;
+  text-align: left;
+} */
 
 nav {
     color: #4c2731;
@@ -39,7 +123,6 @@ button {
   background-color: #F9F575;
   padding: 15px 32px;
   text-align: center;
-  text-decoration:none;
   display: inline-block;
   font-size: 20px;
   color: ###;
@@ -51,6 +134,7 @@ button:hover {
   color: ###;
 }
 
+
 .card-img-top {
     width: 100%;
     height: 25vw;
@@ -60,6 +144,7 @@ button:hover {
 .card:hover {
   opacity: 0.95;
 }
+
 
 #foot {
   padding-top: opx;
@@ -72,10 +157,14 @@ button:hover {
   display:block;
   float:right;
   padding-right: 30px;
-  padding-top: 90px;
+  /* padding-top: 90px; */
   position: relative;
 }
 
 a {
   color: #4c2731;
+}
+
+.nav-item {
+  padding-top: 20px;
 }
