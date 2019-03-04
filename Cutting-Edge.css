@@ -9,6 +9,10 @@
   background-color: #F5F7D7;
 }
 
+#menusection {
+  overflow: hidden;
+  height: 100%;
+}
 
 h1 {
   font-family: bookman, serif;
